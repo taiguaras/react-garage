@@ -12,8 +12,8 @@ export default function Home() {
     <main className={styles.main}>
       <div className={styles.description}>
         <div className="layout">
-          <Button>Teste</Button>
-          <Box>Opa</Box>
+          <Button seliga={"Teste"}>Comeon</Button>
+          <Box qualquer={"inter"}>Opa</Box>
         </div>
       </div>
     </main>
