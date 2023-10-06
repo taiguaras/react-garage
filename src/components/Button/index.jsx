@@ -1,12 +1,14 @@
+'use client';
 import * as React from 'react'
 
-const Button = () => {
+const Button = (props) => {
 
 return(
     <>
         <div>
-            <h1>Title</h1>
-            <p>Texto</p>
+            <h1>{props.seliga}</h1>
+            <p>Textows</p>
+            <p>{console.log("Button - Log",props)}</p>
         </div>
     </>
 )

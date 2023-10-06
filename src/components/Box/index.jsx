@@ -1,5 +1,4 @@
 'use client';
-
 import { createContext } from 'react';
 
 import * as React from 'react';
@@ -23,9 +22,9 @@ const Box = (props) => {
 return(
     <>
         <div className="testando" style={{ fontSize: fontSize }}>
-            <h1>Box</h1>
+            <h1>{props.qualquer}</h1>
             <p>Texto</p>
-            <p>{console.log("hey",props)}</p>
+            <p>{console.log("Box - Log",props)}</p>
         </div>
     </>
 )
