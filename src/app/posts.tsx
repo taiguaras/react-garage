@@ -1,18 +1,13 @@
 import React, { useState } from 'react';
 
-
 const [count, setCount] = useState(0);
 const [name, setName] = useState('Max');
 const [items, setItems] = useState([1, 2, 3]);
 const [bool, setBool] = useState(true);
 const [obj, setObj] = useState({ a: 1, b: 2 });
-const [null, setNull] = useState(null);
 
 const url = "https://jsonplaceholder.typicode.com/users";
 
-
-
-import React, { useState } from 'react';
 
 function Example() {
     // Declare a new state variable, which we'll call "count"
